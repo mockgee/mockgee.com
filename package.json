@@ -10,8 +10,13 @@
     "serve": "nuxt serve"
   },
   "dependencies": {
+    "@nuxt/content": "^1.6.0",
+    "@nuxtjs/axios": "^5.12.1",
+    "@nuxtjs/recaptcha": "^0.6.2",
+    "lodash.groupby": "^4.6.0",
     "nuxt": "^2.13.0",
-    "nuxt-buefy": "^0.3.31"
+    "nuxt-buefy": "^0.3.31",
+    "prism-themes": "^1.4.0"
   },
   "devDependencies": {
     "node-sass": "^4.14.1",

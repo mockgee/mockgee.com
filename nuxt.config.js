@@ -15,7 +15,7 @@ export default {
   ** See https://nuxtjs.org/api/configuration-head
   */
   head: {
-    title: process.env.npm_package_name || '',
+    title: 'Mockgee - Create Mock APIs in seconds',
     meta: [
       { charset: 'utf-8' },
       { name: 'viewport', content: 'width=device-width, initial-scale=1' },
@@ -53,7 +53,26 @@ export default {
   modules: [
     // Doc: https://buefy.github.io/#/documentation
     'nuxt-buefy',
+    '@nuxtjs/axios',
+    '@nuxtjs/recaptcha',
+    '@nuxt/content'
   ],
+  axios: {
+    // proxyHeaders: false
+  },
+  recaptcha: {
+    hideBadge: false, // Hide badge element (v3 & v2 via size=invisible)
+    siteKey: '6LdR57wZAAAAAME_cM_MlkYelB_5ZZAh6EGgWz6b', // Site key for requests
+    version: 2, // Version
+    size: 'invisible' // Size: 'compact', 'normal', 'invisible' (v2)
+  },
+  content: {
+    markdown: {
+      prism: {
+        theme: 'prism-themes/themes/prism-material-oceanic.css'
+      }
+    }
+  },
   /*
   ** Build configuration
   ** See https://nuxtjs.org/api/configuration-build/
