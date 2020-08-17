@@ -30,7 +30,7 @@
 
             <div class="field">
                <b-checkbox v-model="tac">
-                 I agree to the <a href="#">terms and conditions</a>
+                 I agree to the <a @click="confirmMessage">terms and conditions</a>
                </b-checkbox>
             </div>
 
@@ -96,6 +96,7 @@ export default {
           this.name = ''
           this.email = ''
           this.message = ''
+          this.subject = ''
           this.tac = false
           this.$buefy.toast.open({
               duration: 5000,
@@ -121,12 +122,13 @@ export default {
       if (this.name && this.email && this.message && this.subject && this.tac) {
       // validate email
         const re = /\S+@\S+\.\S+/
-        if(re.test(this.email)) {
-         isValid = false
+        if(!re.test(this.email)) {
          this.errors.push('Invalid email.')
+          return false
         }
-        isValid = true
+        return true
       }
+
       if (!this.name) {
         this.errors.push('Name is required.')
       }
@@ -168,16 +170,30 @@ export default {
     },
     onExpired() {
       console.log('Expired')
-    }
+    },
+    confirmMessage() {
+                this.$buefy.dialog.confirm({
+                    title: 'Privacy Agreement',
+                    message: `Draf in progress
+                               - Mockgee Team`,
+                    cancelText: 'Disagree',
+                    confirmText: 'Agree',
+                    type: 'is-success',
+                    onConfirm: () => this.$buefy.toast.open('User agreed')
+                })
+            }
   }
 }
 </script>
 
-<style lang="scss" scoped>
+<style scoped>
 .contact {
   min-height: 70vh;
 }
 li {
   color: red;
+}
+h1, h2, p {
+  font-family: 'Cairo', sans-serif;
 }
 </style>

@@ -14,8 +14,8 @@
       </div>
       <div class="column is-7">
         <div class="container">
-          <h1 class="is-size-2 has-text-grey-dark">{{ page.title }}</h1>
-          <nuxt-content :document="page" />
+          <h1 class="is-size-2 has-text-grey">{{ guide.title }}</h1>
+          <nuxt-content :document="guide" />
           <prev-next :prev="prev" :next="next" />
         </div>
       </div>
@@ -23,7 +23,7 @@
         <aside class="menu">
           <p class="menu-label">On this page</p>
           <ul>
-            <li v-for="link in page.toc" class="menu-list" :key="link.id">
+            <li v-for="link in guide.toc" class="menu-list" :key="link.id">
               <NuxtLink :to="`#${link.id}`">{{ link.text }}</NuxtLink>
             </li>
           </ul>
@@ -38,44 +38,62 @@
 export default {
   async asyncData({ $content, params }) {
     // const pages = await $content("guide").fetch()
-    const page = await $content("guide", params.slug).fetch()
+    const guide = await $content("guide", params.slug).fetch()
 
     const [prev, next] = await $content("guide")
-      .only(['title', 'slug'])
-      .sortBy('createdAt', 'asc')
+      .only(["title", "slug"])
+      .sortBy("createdAt", "asc")
       .surround(params.slug)
       .fetch()
 
-    return { page, prev, next }
+    return { guide, prev, next }
   },
   data() {
     return {
       pages: [
-        { id: 1, path: 'get-started', title: 'Get Started'},
-        { id: 2, path: 'installation', title: 'Installation'},
-        { id: 3, path: 'quick-start', title: 'Quick Start'}
+        { id: 1, path: "introduction", title: "Introduction" },
+        { id: 2, path: "installation", title: "Installation" },
+        { id: 3, path: "get-started", title: "Get Started" },
+        // { id: 3, path: "quick-start", title: "Quick Start" }
       ]
     }
-  }
+  },
 }
 </script>
 
 
 <style>
+h1 {
+  font-family: "Cairo", sans-serif;
+  /* color: #5f6368; */
+}
 .nuxt-content h2 {
   /* font-weight: bold; */
   font-size: 28px;
+  font-family: "Cairo", sans-serif;
 }
 .nuxt-content h3 {
   /* font-weight: bold; */
   font-size: 22px;
 }
 .nuxt-content p {
-  margin-bottom: 20px;
+  margin-bottom: 14px;
+  font-family: "Cairo", sans-serif;
 }
 .nuxt-content ul {
   list-style-type: square;
   margin-left: 1.5rem;
+  font-family: "Cairo", sans-serif;
+}
+.nuxt-content a {
+  color: #1068bf;
+  font-size: 15px;
+  font-family: "Cairo", sans-serif;
+}
+a {
+  color: #1068bf;
+  font-size: 15px;
+  font-family: "Cairo", sans-serif;
 }
 .menu {
   position: sticky;
@@ -86,5 +104,7 @@ export default {
   top: 0;
   bottom: 0;
   padding: 30px;
+  font-family: "Cairo", sans-serif;
+  font-size: 18px;
 }
 </style>

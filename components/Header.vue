@@ -7,13 +7,13 @@
         <b-navbar-item tag="a" href="https://github.com/mockgee/mockgee" target="_blank">
          <b-icon icon="github" type="is-dark"></b-icon>
       </b-navbar-item>
-        <b-navbar-item tag="a" href="https://www.facebook.com/api.mockgee" target="_blank">
-         <b-icon icon="facebook" type="is-info"></b-icon>
+        <b-navbar-item tag="a" href="https://www.twitter.com/mockgee" target="_blank">
+         <b-icon icon="twitter" type="is-info"></b-icon>
       </b-navbar-item>
     </template>
     <template slot="end">
       <b-navbar-item tag="nuxt-link" :to="{ path: '/' }">HOME</b-navbar-item>
-      <b-navbar-item tag="nuxt-link" :to="{ path: '/guide/get-started' }">GUIDE</b-navbar-item>
+      <b-navbar-item tag="nuxt-link" :to="{ path: '/guide/introduction' }">GUIDE</b-navbar-item>
       <b-navbar-item tag="nuxt-link" :to="{ path: '/faq' }">FAQ</b-navbar-item>
       <b-navbar-item tag="nuxt-link" :to="{ path: '/contact' }">CONTACT</b-navbar-item>
       <b-navbar-item tag="nuxt-link" :to="{ path: '/about' }">ABOUT</b-navbar-item>

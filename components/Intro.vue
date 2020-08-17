@@ -15,3 +15,9 @@ export default {
   props: ['title', 'bodyText']
 }
 </script>
+
+<style scoped>
+h1, p {
+  font-family: 'Cairo', sans-serif;
+}
+</style>

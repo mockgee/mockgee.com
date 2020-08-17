@@ -9,3 +9,9 @@
       </div>
   </footer>
 </template>
+
+<style scoped>
+p {
+  font-family: 'Cairo', sans-serif;
+}
+</style>

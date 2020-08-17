@@ -1,8 +1,6 @@
 ---
 title: Quick Start
 description: Quick start guide
-# img: first-blog-post.jpg
-alt: my first blog post
 ---
 
 </br>
@@ -39,5 +37,9 @@ $ npm install
 ```bash
 $ npm start
 ```
+
+
+<br/>
+<br/>
 
 

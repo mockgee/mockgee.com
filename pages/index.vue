@@ -38,7 +38,6 @@
              </div>
           </div>
       </div>
-
     </div>
   </section>
   </div>
@@ -84,7 +83,7 @@ export default {
 </script>
 
 <style scoped>
-/* .intro-first {
-  margin-bottom: 5%;
-} */
+h1, h2, p {
+  font-family: 'Cairo', sans-serif;
+}
 </style>

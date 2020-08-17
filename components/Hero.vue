@@ -11,7 +11,7 @@
            Create Mock APIs in seconds
           </h2>
           <br>
-          <b-button type="is-dark is-medium" @click="openApp">Try Mockgee on cloud</b-button>
+          <b-button type="is-dark is-medium" @click="openApp" style="font-family: 'Cairo', sans-serif;">Try Mockgee on cloud</b-button>
         </div>
         <div class="column">
           <div class="image" style="width: 400px; heigth: 200px;text-align: right;">
@@ -59,5 +59,8 @@ export default {
 }
 .hero-text {
   padding-top: 5rem;
+}
+h1, h2{
+  font-family: 'Cairo', sans-serif;
 }
 </style>
