@@ -33,7 +33,7 @@ Mockgee is a web based API mock server that provides user interface for working 
 
 **Q: What kind mock API can Mockgee support?**
 
-Mockgee supports various types of API. With Mockgee you can create your API in JSON, XML, Text and HMTL. It let sets standard http status code and custom headers. In nutshell, exact target API endpotin can be created by using Mockgee.
+Mockgee supports various types of API. With Mockgee you can create your API in JSON, XML, Text and HMTL. It let sets standard http status code and custom headers. In nutshell, exact target API endpoint can be created by using Mockgee.
 
 
 **Q: What kind HTTP methods Mockgee support?**
@@ -61,9 +61,9 @@ Mockgee offers on-premises deployment via NPM installation and Docker Image. It 
 
 <br/>
 
-**Q: Question ?**
+**Q: What are the pricing options available?**
 
-Draft
+For Mockgee pricing model, [check this out](/pricing)
 
 
 

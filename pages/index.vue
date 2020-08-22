@@ -3,10 +3,11 @@
     <Hero/>
     <div class="intro-first hero is-light">
        <div class="hero-body">
-          <div class="container">
-            <h1 class="title is-size-1 has-text-centered">
-              Build Higher Quality APIs
+          <div class="container has-text-centered">
+            <h1 class="title is-size-1">
+              Create a replica of your target API on the fly
             </h1>
+            <p class="">You need the APIs. We have the capability to help make them happen. See how our <nuxt-link to="/faq">FQAs</nuxt-link></p>
           </div>
        </div>
      </div>
@@ -37,6 +38,19 @@
                <AppImage :src="intros[2].imgURL" :imgWidth="550" :imgHeight="275" />
              </div>
           </div>
+          <br>
+          <br>
+          <br>
+          <div class="columns">
+                <div class="column is-three-fifths">
+                  <h1 class="is-size-2">Ready to get started?</h1>
+                  <p>Read our get started guide now!</p>
+                </div>
+                <div class="column has-text-left">
+                  <!-- <button class="button is-primary is-medium" >Get Started</button> -->
+                  <nuxt-link class="button is-primary is-medium" to="/guide/get-started" >Get Started</nuxt-link>
+                </div>
+          </div>
       </div>
     </div>
   </section>
@@ -60,21 +74,33 @@ export default {
       intros: [
         {
           id: 1,
-          title: "Shorten Time to Production",
-          bodyText: "Work more efficiently with Mockgee's API mock servers. Mockgee mocks support split-stack development so front-end and back-end developers can work in parallel and view responses without spinning up the back end.",
+          title: "Get Consumable APIs Ready",
+          bodyText: "Mockgee provides consumable API ready to developers within seconds.  Your backend APIs is still under development. No worries. Try Mockgee that can create a replica of your target API on the fly.",
           imgURL: config.images.describeOne
         },
         {
           id: 2,
           title: "Increase Developers Productivity",
-          bodyText: "With Mockgee's API mock server overall effectiveness of a development team and their ability to produce results can be significantly increased. Developers can take the advantage of mocking during development that integrates with other system components via APIs.",
+          bodyText: "With Mockgee's APIs mock server overall effectiveness of a development team and their ability to produce results can be significantly increased. Developers can take advantage of mock APIs during development to deliver software much faster.",
           imgURL: config.images.describeTwo
         },
         {
           id: 3,
           title: "Support 100% Techincal Capbility",
-          bodyText: "A mock should support the same transport protocols, schemas, etc as the actual API, and be. The mock API should be accessible exactly like the original service and not require any special tooling or libraries.",
+          bodyText: "Mock APIs should have the same capability as target APIs. It should be accessible exactly like the original service and not require any special tooling or libraries. Mockgee supports all standard technical capabilities for an HTTP based API.",
           imgURL: config.images.describeThree
+        }
+      ]
+    }
+  },
+  head() {
+    return {
+      title: "Mockgee",
+      meta: [
+        {
+          hid: "description",
+          name: "description",
+          content: "Mockgee is a web based API mock server that provides user interface for working with mock APIs. It is designed to provide consumable APIs available to developers even before actual APIs are ready."
         }
       ]
     }
@@ -85,5 +111,8 @@ export default {
 <style scoped>
 h1, h2, p {
   font-family: 'Cairo', sans-serif;
+}
+.hero-body {
+    padding: 6rem 3rem;
 }
 </style>

@@ -3,6 +3,6 @@ title: About
 description: This is a about page.
 ---
 
-This is an <code>about</code> page. Currently it is underdevelopment.
+Mockgee is an API mock server developed by [ElfEdge](https://www.elfedge.com). It is designed to provide consumable APIs available to developers even before actual APIs are ready.
 
 Back to [home](/)

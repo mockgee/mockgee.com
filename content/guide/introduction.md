@@ -1,6 +1,7 @@
 ---
 title: Introduction
 description: Mockgee Introduction page.
+page: 1
 ---
 
 Mockgee is a web based API mock server that provides user interface for working with mock APIs. It is designed to provide consumable APIs available to developers even before actual APIs are ready.
@@ -10,7 +11,7 @@ Mockgee is a web based API mock server that provides user interface for working 
 <info-box type="is-info">
   <template #info-box>
 
-Mockgee current version is 1.0.0
+Mockgee current version is 1.0.0-beta
   </template>
 </info-box>
 
@@ -18,13 +19,13 @@ Mockgee current version is 1.0.0
 
 Below are some of the features of Mockgee:
 
-  * Web based, centrally avaible to all developers and testers
-  * Create mock API in seconds
-  * Support for JSON, XML and TEXT
-  * Signle dashboard to view all mock's APIs
+  * Web based accessible using any browser to developers and testers
+  * It supports content JSON, XML, HTML and Text
+  * Signle place to view all mock's APIs and reuse it
   * Support for 100% techincal capbility of REST API
-  * Edit features
-  * Auto genration endpoint
+  * It supports modification of content, method and resource path
+  * Temporaroy enable and disable functionlity
+  * Auto genration of endpoint
 
 
 <br/>

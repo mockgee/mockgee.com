@@ -15,6 +15,7 @@
       <b-navbar-item tag="nuxt-link" :to="{ path: '/' }">HOME</b-navbar-item>
       <b-navbar-item tag="nuxt-link" :to="{ path: '/guide/introduction' }">GUIDE</b-navbar-item>
       <b-navbar-item tag="nuxt-link" :to="{ path: '/faq' }">FAQ</b-navbar-item>
+      <b-navbar-item tag="nuxt-link" :to="{ path: '/pricing' }">PRICING</b-navbar-item>
       <b-navbar-item tag="nuxt-link" :to="{ path: '/contact' }">CONTACT</b-navbar-item>
       <b-navbar-item tag="nuxt-link" :to="{ path: '/about' }">ABOUT</b-navbar-item>
     </template>

@@ -1,9 +1,9 @@
 <template>
     <div class="intro">
-      <h1 class="title">
+      <h1 class="is-size-2">
         {{ title }}
       </h1>
-      <p class="subtitle">
+      <p class="is-size-5">
         {{ bodyText }}
       </p>
     </div>

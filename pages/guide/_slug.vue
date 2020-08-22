@@ -15,6 +15,7 @@
       <div class="column is-7">
         <div class="container">
           <h1 class="is-size-2 has-text-grey">{{ guide.title }}</h1>
+          <br>
           <nuxt-content :document="guide" />
           <prev-next :prev="prev" :next="next" />
         </div>
@@ -42,7 +43,7 @@ export default {
 
     const [prev, next] = await $content("guide")
       .only(["title", "slug"])
-      .sortBy("createdAt", "asc")
+      .sortBy("page", "asc")
       .surround(params.slug)
       .fetch()
 

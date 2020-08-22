@@ -1,6 +1,7 @@
 ---
 title: Get Started
-description: Learning how to use @nuxt/content to create a blog
+description: Mockgee get started guide
+page: 3
 ---
 
 Through this tutorial, you'll learn to:
