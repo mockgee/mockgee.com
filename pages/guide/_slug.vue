@@ -1,7 +1,7 @@
 <template>
   <section class="section">
     <div class="columns">
-      <div class="column is-3 is-hidden-mobile">
+      <div class="column is-2 is-hidden-mobile">
         <aside class="menu">
           <AppSearchInput />
           <p class="menu-label">Pages</p>
@@ -12,7 +12,7 @@
           </ul>
         </aside>
       </div>
-      <div class="column is-7">
+      <div class="column">
         <div class="container">
           <h1 class="is-size-2 has-text-grey">{{ guide.title }}</h1>
           <br>

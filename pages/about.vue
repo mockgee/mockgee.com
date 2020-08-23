@@ -1,6 +1,6 @@
 <template>
   <section class="section">
-        <div class="container">
+        <div class="container about">
           <div class="columns is-vcentered">
             <div class="column is-7 about-desc">
                 <h1 class="is-size-2 has-text-grey-dark">About</h1>
@@ -50,10 +50,13 @@ export default {
 
 
 <style scoped>
+.about {
+  margin-bottom: 3%;
+}
 h1, h2, p {
   font-family: 'Cairo', sans-serif;
 }
 .about-desc {
-  padding: 1rem 4rem;
+  padding: 1rem 2rem;
 }
 </style>

@@ -188,6 +188,7 @@ export default {
 
 <style scoped>
 .contact {
+  margin-top: 3%;
   min-height: 70vh;
 }
 li {

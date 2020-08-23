@@ -1,7 +1,7 @@
 <template>
   <section class="section">
     <div class="columns">
-      <div class="column is-3 is-hidden-mobile">
+      <div class="column is-2  is-hidden-mobile">
         <aside class="menu">
           <p class="menu-label">On this page</p>
           <ul>
@@ -11,12 +11,13 @@
           </ul>
         </aside>
       </div>
-      <div class="column">
+      <div class="column is-8">
         <div class="container">
           <h1 class="is-size-2 has-text-grey-dark">{{ faq.title }}</h1>
           <nuxt-content :document="faq" />
         </div>
       </div>
+      <div class="column"></div>
     </div>
   </section>
 </template>

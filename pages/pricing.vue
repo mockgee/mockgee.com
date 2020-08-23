@@ -156,22 +156,21 @@
                 <div class="column">
                   <div class="content">
                     <ul>
-                      <li>Web based, centrally avaible to all developers</li>
-                      <li>Web based, centrally avaible</li>
-                      <li>Web based, centrally avaible to all developers and</li>
-                      <li>Web based, centrally avaible to all developers and</li>
-                      <li>Web based, centrally avaible to all developers and</li>
+                      <li>Web based accessible using any browser</li>
+                      <li>It supports content JSON, XML, HTML and Text</li>
+                      <li>Signle place to view all mock's APIs and reuse it</li>
+                      <li>Support for 100% techincal capbility of REST API</li>
+                      <li>Logs trail for recently invoked endpoint</li>
                     </ul>
                   </div>
                 </div>
                 <div class="column">
                   <div class="content">
                     <ul>
-                      <li>Support for JSON, XML and TEXT</li>
-                      <li>Support for JSON, XML and TEXT</li>
-                      <li>Support for JSON, XML and TEXT</li>
-                      <li>Support for JSON, XML and TEXT</li>
-                      <li>Support for JSON, XML and TEXT</li>
+                      <li>It supports modification of content, method and resource path</li>
+                      <li>Temporaroy enable and disable functionlity</li>
+                      <li>Auto genration of endpoint</li>
+                      <li>Dashboard to see all stats</li>
                     </ul>
                   </div>
                 </div>

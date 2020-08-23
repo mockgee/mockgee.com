@@ -1,7 +1,7 @@
 <template>
   <div class="home">
     <Hero/>
-    <div class="intro-first hero is-light">
+    <div class="hero is-light">
        <div class="hero-body">
           <div class="container has-text-centered">
             <h1 class="title is-size-1">
@@ -14,7 +14,7 @@
   <section class="section">
     <div class="container">
       <div class="intro">
-          <div class="columns is-vcentered">
+          <div class="columns is-vcentered detail-spacing">
              <div class="column" >
                <Intro :title="intros[0].title" :bodyText="intros[0].bodyText" />
              </div>
@@ -22,7 +22,7 @@
                <AppImage :src="intros[0].imgURL" :imgWidth="550" :imgHeight="275" />
              </div>
           </div>
-          <div class="columns is-vcentered">
+          <div class="columns is-vcentered detail-spacing reverse-columns">
              <div class="column">
                <AppImage :src="intros[1].imgURL" :imgWidth="550" :imgHeight="275" />
              </div>
@@ -30,7 +30,7 @@
                <Intro :title="intros[1].title" :bodyText="intros[1].bodyText" />
              </div>
           </div>
-          <div class="columns is-vcentered">
+          <div class="columns is-vcentered detail-spacing">
              <div class="column" >
                <Intro :title="intros[2].title" :bodyText="intros[2].bodyText" />
              </div>
@@ -40,8 +40,8 @@
           </div>
           <br>
           <br>
-          <br>
-          <div class="columns">
+          <hr>
+          <div class="columns detail-spacing">
                 <div class="column is-three-fifths">
                   <h1 class="is-size-2">Ready to get started?</h1>
                   <p>Read our get started guide now!</p>
@@ -114,5 +114,15 @@ h1, h2, p {
 }
 .hero-body {
     padding: 6rem 3rem;
+}
+.detail-spacing {
+  margin: 0% 5%;
+}
+
+@media(max-width: 767px) { /* <== You can change this break point as per your  needs */
+  .reverse-columns {
+    flex-direction: column-reverse;
+    display: flex;
+  }
 }
 </style>
