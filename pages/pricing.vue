@@ -207,7 +207,12 @@ export default {
       isCloud: true,
       isMsgView: false,
       viewMsgName: "",
-    };
+    }
+  },
+    head() {
+    return {
+      title: "Pricing | Mockgee"
+    }
   },
   methods: {
     toggleCloud(value) {

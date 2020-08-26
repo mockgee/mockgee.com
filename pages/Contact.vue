@@ -75,7 +75,12 @@ export default {
       tac: false,
       // success: true,
       imageURL: config.images.constact
-    };
+    }
+  },
+    head() {
+    return {
+      title: "Contact | Mockgee"
+    }
   },
   methods: {
     async sendMessage() {

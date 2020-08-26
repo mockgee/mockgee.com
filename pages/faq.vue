@@ -30,6 +30,11 @@ export default {
     const faq = await $content("faq").fetch()
 
     return { faq }
+  },
+    head() {
+    return {
+      title: "FAQ | Mockgee"
+    }
   }
 }
 </script>

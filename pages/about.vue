@@ -35,7 +35,7 @@ export default {
   },
   head() {
     return {
-      title: "About Mockgee",
+      title: "About | Mockgee",
       meta: [
         {
           hid: "description",

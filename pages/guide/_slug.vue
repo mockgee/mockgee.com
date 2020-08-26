@@ -59,6 +59,11 @@ export default {
       ]
     }
   },
+  head() {
+    return {
+      title: "Guide | Mockgee"
+    }
+  }
 }
 </script>
 

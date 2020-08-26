@@ -11,6 +11,13 @@
           </div>
        </div>
      </div>
+
+<div style="padding: 1rem 1rem;">
+          <b-message type="is-info" has-icon>
+            <p>Local installation using NPM and Docker image is not available in <strong>Beta release</strong>. Use our <a href="https://cloud.mockgee.com" target="_blank">Mockgee on cloud</a> service instead.</p>
+        </b-message>
+</div>
+
   <section class="section">
     <div class="container">
       <div class="intro">
@@ -44,11 +51,11 @@
           <div class="columns detail-spacing">
                 <div class="column is-three-fifths">
                   <h1 class="is-size-2">Ready to get started?</h1>
-                  <p>Read our get started guide now!</p>
+                  <p>Use Mockgee on cloud as service!</p>
                 </div>
                 <div class="column has-text-left">
                   <!-- <button class="button is-primary is-medium" >Get Started</button> -->
-                  <nuxt-link class="button is-primary is-medium" to="/guide/get-started" >Get Started</nuxt-link>
+                  <a class="button is-primary is-medium" href="https://cloud.mockgee.com" target="_blank" >Sign Up</a>
                 </div>
           </div>
       </div>
@@ -95,7 +102,7 @@ export default {
   },
   head() {
     return {
-      title: "Mockgee",
+      title: "Mockgee: Create Mock APIs in seconds",
       meta: [
         {
           hid: "description",

@@ -18,6 +18,7 @@
       <b-navbar-item tag="nuxt-link" :to="{ path: '/pricing' }">PRICING</b-navbar-item>
       <b-navbar-item tag="nuxt-link" :to="{ path: '/contact' }">CONTACT</b-navbar-item>
       <b-navbar-item tag="nuxt-link" :to="{ path: '/about' }">ABOUT</b-navbar-item>
+      <b-navbar-item tag="a" href="https://cloud.mockgee.com" target="_blank">LOGIN</b-navbar-item>
     </template>
 
     <!-- <template slot="end">
