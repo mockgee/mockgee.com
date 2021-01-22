@@ -15,11 +15,11 @@
     "@nuxtjs/recaptcha": "^0.6.2",
     "lodash.groupby": "^4.6.0",
     "nuxt": "^2.13.0",
-    "nuxt-buefy": "^0.3.31",
+    "nuxt-buefy": "^0.4.4",
     "prism-themes": "^1.4.0"
   },
   "devDependencies": {
-    "node-sass": "^4.14.1",
-    "sass-loader": "^8.0.2"
+    "node-sass": "^5.0.0",
+    "sass-loader": "^10.1.1"
   }
 }
