@@ -48,16 +48,23 @@
           <br>
           <br>
           <hr>
-          <div class="columns detail-spacing">
+          <div class="hero">
+            <div class="hero-body">
+            <div class="container">
+            <h1 class="is-size-2 has-text-centered mb-5">Ready to get started?</h1>
+             <Product/>
+            </div>
+            </div>
+          </div>
+          <!-- <div class="columns detail-spacing">
                 <div class="column is-three-fifths">
                   <h1 class="is-size-2">Ready to get started?</h1>
                   <p>Use Mockgee on cloud as service!</p>
                 </div>
                 <div class="column has-text-left">
-                  <!-- <button class="button is-primary is-medium" >Get Started</button> -->
                   <a class="button is-primary is-medium" href="https://cloud.mockgee.com" target="_blank" >Sign Up</a>
                 </div>
-          </div>
+          </div> -->
       </div>
     </div>
   </section>
@@ -69,12 +76,14 @@ import Hero from '~/components/Hero'
 import config from '../config'
 import Intro from '~/components/Intro'
 import AppImage from '~/components/AppImage'
+import Product from '~/components/Product'
 
 export default {
   components: {
     Hero,
     Intro,
-    AppImage
+    AppImage,
+    Product
   },
   data() {
     return {
