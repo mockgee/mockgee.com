@@ -13,7 +13,7 @@
         </aside>
       </div>
       <div class="column">
-        <div class="container">
+        <div class="container is-fluid">
           <h1 class="is-size-2 has-text-grey">{{ guide.title }}</h1>
           <br>
           <nuxt-content :document="guide" />

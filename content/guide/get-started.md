@@ -7,7 +7,7 @@ page: 3
 Through this tutorial, you'll learn to:
 
   - Create a new account.
-  - Create an API mock.
+  - Create an new API mock.
   - Test an API mock
   - Modify an existing mock
   - Delete an existing mock
@@ -16,15 +16,15 @@ Through this tutorial, you'll learn to:
 
 ## Step 1: Create a new account
 
-1. Go to https://cloud.mockgee.com and click on create account.
+1. Go to http://locahost:8080 and click on create account.
     Enter your name, username, email address, and a password. Be sure to read and accept the terms of service.
     
 2. Click Sign up.
 
-3. Mockgee sends you an account confirmation. In the confirmation email, click the account verification link.
-  You'll be sent to the login page: https://cloud.mockgee.com
+<!-- 3. Mockgee sends you an account confirmation. In the confirmation email, click the account verification link.
+  You'll be sent to the login page: http://locahost:8080 -->
 
-4. Log in with the username and password that you used to sign up. 
+3. Log in with the username and password that you used to sign up. 
    After your account is activated, 
 
 <info-box type="is-success">
@@ -40,7 +40,7 @@ Through this tutorial, you'll learn to:
 
 To create an API mock:
 
-1. Sign in to https://cloud.mockgee.com
+1. Sign in to http://locahost:8080
 2. Click create Mock API
 3. Configure your mock details, as follows
   - **Method** select HTTP methods
@@ -61,7 +61,7 @@ To create an API mock:
 
 ## Step 3: Test an API mock
 
-To test an API mock, use any existing REST Client or use [Mockgee REST Client](https://cloud.mockgee.com/#/mock/test)
+To test an API mock, use any existing REST Client or use [Mockgee REST Client](http://locahost:8080/#/mock/test)
 
 1. In the left hand menu click Mock > APIs, all your mocks API display here
 2. Copy the mock API endpoint URL

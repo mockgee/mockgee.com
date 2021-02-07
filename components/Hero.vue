@@ -8,11 +8,11 @@
               Mock <span class="has-text-light">Your</span> APIs with Mockgee
             </h1>
             <h6
-              class="is-size-5 has-text-weight-bold has-text-light"
+              class="is-size-5 has-text-weight-semibold has-text-light"
             >Create the mock API endpoint with multiple combinations of request and response. Simulate like true backend API server.</h6>
             <br />
             <b-button
-              type="is-warning is-medium"
+              type="is-light is-medium"
               @click="openApp"
               style="font-family: 'Cairo', sans-serif;"
             >Try Mockgee now!</b-button>

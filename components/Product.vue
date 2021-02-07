@@ -27,7 +27,7 @@
                 <li> - Mockgees Request Interceptor captures system genrated request.</li>
               </ul>
               <div class="mt-5">
-                <a class="button is-primary" href="https://cloud.mockgee.com/" target="_blank">Install Mockgee in Docker container</a>
+                <a class="button is-primary" href="/guide/installation">Install Mockgee in Docker container</a>
               </div>
             </div>
           </div>
@@ -41,7 +41,7 @@
                <span>PER YEAR</span>
               <br />
               <br>
-              <p>Advanced version of Mockgee. For teams building applications that need advanced API functionality and provide other extra features.</p>
+              <p class="has-text-left">Advanced version of Mockgee. For teams building applications that need advanced API functionality and provide other extra features.</p>
               <br>
               <ul class="has-text-left" style="font-size: 0.9rem;">
                 <li> - Get all the features from Community Edition, and </li>
@@ -49,7 +49,7 @@
                 <li> - Option to create a Mock API endpoint in status code other than 200. </li>
               </ul>
               <div class="mt-5">
-                <a class="button is-primary" href="https://cloud.mockgee.com/" target="_blank">BUY A LICENSE</a>
+                <a class="button is-primary" href="/contact">BUY A LICENSE</a>
               </div>
             </div>
           </div>
