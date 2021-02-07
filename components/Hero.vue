@@ -3,20 +3,16 @@
     <div class="hero-body">
       <div class="container">
         <div class="columns">
-          <div class="column hero-text">
-            <div class="tags has-addons">
-              <span class="tag">Version</span>
-              <span class="tag is-dark">Beta-1.0.1</span>
-            </div>
-            <h1 class="is-size-2 has-text-weight-bold has-text-grey-dark">
-              Mock APIs with Mockgee
+          <div class="column hero-text is-7">
+            <h1 class="is-size-1 has-text-weight-bold has-text-grey-dark">
+              Mock <span class="has-text-light">Your</span> APIs with Mockgee
             </h1>
-            <h2
-              class="is-size-3 has-text-weight-semibold has-text-light"
-            >Create Mock APIs in seconds</h2>
+            <h6
+              class="is-size-5 has-text-weight-semibold has-text-light"
+            >Create the mock API endpoint with multiple combinations of request and response. Simulate like true backend API server.</h6>
             <br />
             <b-button
-              type="is-warning is-medium"
+              type="is-light is-medium"
               @click="openApp"
               style="font-family: 'Cairo', sans-serif;"
             >Try Mockgee now!</b-button>
