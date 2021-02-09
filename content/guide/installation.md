@@ -85,13 +85,13 @@ default.json
 ### Download a Mockgee Docker image
 <br>
 
-The official Mockgee Docker images are located in the [mockgee/mockgee](https://hub.docker.com/r/mockgee/mockgee/) Docker Hub repository.
+The official Mockgee Community Edition Docker images are located in the [mockgee/mockgee-ce](https://hub.docker.com/r/mockgee/mockgee/) Docker Hub repository.
 
 
-For example, the following downloads Mockgee release image to your machine:
+For example, the following downloads Mockgee Community Edition release image to your machine:
 
 ```sh
-$ docker pull mockgee/mockgee
+$ docker pull mockgee/mockgee-ce
 ```
 <br>
 
@@ -100,20 +100,20 @@ $ docker pull mockgee/mockgee
 
 ```sh
 $ docker run [-it] [-p hostWebPort:containerWebPort] [-p hostMockPort:containerMockPort] \
-  mockgee/mockgee[:tag] [command]
+  mockgee/mockgee-ce[:tag] [command]
 ```
 
 For details, [see the docker run reference](https://docs.docker.com/engine/reference/run/).
 
 <br>
 
-### Examples using Mockgee docker image
+### Examples using Mockgee Community Edition docker image
 <br>
 
 Let's verify the Mockgee installation using the latest tagged image. Docker downloads a new Mockgee image the first time it is run:
 
 ```sh
-$ docker run -it -p 8080:8080 -p 8085:8085 --name mockgee_server mockgee/mockgee:latest
+$ docker run -it -p 8080:8080 -p 8085:8085 --name mockgee_server mockgee/mockgee-ce:latest
 ```
 
 <info-box type="is-success">
@@ -140,7 +140,7 @@ local     mockgee
 
 # Create Mockgee container with persistence storage 
 $ docker run -it -p 8080:8080 -p 8085:8085 --name mockgee_server \
--v mockgee:/usr/app/store mockgee_server mockgee/mockgee:latest
+-v mockgee:/usr/app/store mockgee_server mockgee/mockgee-ce:latest
 ```
 
 

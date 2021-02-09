@@ -14,7 +14,7 @@ const config = {
     constact: "https://s3-eu-west-1.amazonaws.com/mockgee.io/images/public/mockgee_contact.png"
   },
   app: {
-    url: "https://cloud.mockgee.com"
+    url: "/guide/installation"
   }
 }
 
