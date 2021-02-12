@@ -4,7 +4,7 @@
           <div class="columns is-vcentered">
             <div class="column is-7 about-desc">
                 <h1 class="is-size-2 has-text-grey-dark">About</h1>
-                <p>Mockgee is an API mock server that is designed to provide consumable APIs available to developers even before actual APIs are ready. It is designed and developed by <a href="http://tanveeriqbal.info">Tanveer Iqbal</a> and is now maintained by <a href="https://elfedge.com" target="_blank">Elfedge Solutions Pvt. Ltd.</a></p>
+                <p>Mockgee is an API mock server that is designed to provide consumable APIs available to developers and testers even before actual APIs are ready. It is designed and developed by <a href="http://tanveeriqbal.info">Tanveer Iqbal</a> and is now maintained by <a href="https://elfedge.com" target="_blank">Elfedge Solutions Pvt. Ltd.</a></p>
                 <img :src="src" width="600" height="400" />
             </div>
             <div class="column">

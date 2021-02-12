@@ -6,7 +6,7 @@
           <section class="section">
               <p
                 class="is-size-3 mt-4 pt-4 has-text-grey-light"
-              >"For developers and testers looking to similute a target API endpoint. It provides a developers and testers an user interface to create fake API in SOAP/XML, JSON and Text."
+              >"For developers and testers looking to simulate a target API endpoint. It provides developers and testers a user interface to create fake API in SOAP/XML, JSON, and Text."
             </p>
           </section>
         </div>
@@ -17,14 +17,14 @@
                <p class="is-size-2 has-text-grey-light">FREE !!</p>
               <br />
               <ul class="has-text-left" style="font-size: 0.9rem;">
-                <li> - Mimic your Real Web Services without having to wait for them to be ready.</li>
+                <li> - Mimic your Real Web Services without having to wait for them to be ready</li>
                 <li> - Support SOAP/XML, JSON, Text and HMTL</li>
-                <li> - Create multiple request-response combinations - Like a real API.</li>
-                <li> - Web App based. Access Mockgee server from your favourite browsers.</li>
-                <li> - Support multiple users. User access management.</li>
+                <li> - Create multiple request-response combinations - Like a real API</li>
+                <li> - Web App based. Access Mockgee server from your favorite browsers</li>
+                <li> - Support multiple users. User access management</li>
                 <li> - Support 100% technical capability of a real-world API</li>
-                <li> - Auto-generation of endpoint and copy to clipboard supports</li>
-                <li> - Mockgees Request Interceptor captures system genrated request.</li>
+                <li> - Auto-generation of endpoint URL and copy to clipboard supports</li>
+                <li> - Mockgee's Request Interceptor captures system-generated requests</li>
               </ul>
               <div class="mt-5">
                 <a class="button is-primary" href="/guide/installation">Install Mockgee in Docker container</a>
@@ -41,12 +41,14 @@
                <span>PER YEAR</span>
               <br />
               <br>
-              <p class="has-text-left">Advanced version of Mockgee. For teams building applications that need advanced API functionality and provide other extra features.</p>
+              <p class="has-text-left">An advanced version of Mockgee. For teams building applications that need advanced API functionality and provide other extra features.</p>
               <br>
               <ul class="has-text-left" style="font-size: 0.9rem;">
-                <li> - Get all the features from Community Edition, and </li>
-                <li> - Create a response Mock API endpoint with custom headers. </li>
-                <li> - Option to create a Mock API endpoint in status code other than 200. </li>
+                <li> - Get all the features from Mockgee Community Edition, plus</li>
+                <li> - Create a Mock API with custom headers</li>
+                <li> - Create a Mock API with standard HTTP status codes</li>
+                <li> - Option to use MongoDB for persistence data storage</li>
+                <li> - Get premier supports from our technical team</li>
               </ul>
               <div class="mt-5">
                 <a class="button is-primary" href="/contact">BUY A LICENSE</a>

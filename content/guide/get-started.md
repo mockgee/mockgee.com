@@ -16,8 +16,7 @@ Through this tutorial, you'll learn to:
 
 ## Step 1: Create a new account
 
-1. Go to http://locahost:8080 and click on create account.
-    Enter your name, username, email address, and a password. Be sure to read and accept the terms of service.
+1. Go to http://locahost:8080 and click on create an account. Enter your name, username, email address, and password. Be sure to read and accept the terms of service.
     
 2. Click Sign up.
 
@@ -25,7 +24,9 @@ Through this tutorial, you'll learn to:
   You'll be sent to the login page: http://locahost:8080 -->
 
 3. Log in with the username and password that you used to sign up. 
-   After your account is activated, 
+   After your account is activated.
+
+   <br>
 
 <info-box type="is-success">
   <template #info-box>

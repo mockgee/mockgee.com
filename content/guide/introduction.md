@@ -4,7 +4,7 @@ description: Mockgee Introduction page.
 page: 1
 ---
 
-Mockgee is a web based API mock server that provides user interface for working with mock APIs. It is designed to provide consumable APIs available to developers even before actual APIs are ready.
+Mockgee is a web-based API mocking server that provides a user interface for creating mock APIs in seconds. It is designed to provide consumable APIs available to developers even before actual APIs are ready.
 
 <br/>
 
@@ -17,20 +17,21 @@ Mockgee current version is 1.0.0-beta
 
 
 
-Below are some of the features of Mockgee:
+## Mockgee's features:
+  <br>
 
-  * Web based accessible using any browser to developers and testers
-  * It supports content JSON, XML, HTML and Text
-  * Signle place to view all mock's APIs and reuse it
-  * Support for 100% techincal capbility of REST API
-  * It supports modification of content, method and resource path
-  * Temporaroy enable and disable functionlity
-  * Auto genration of endpoint
+  * Create a mock ( fake ) APIs of payload type JSON, SOAP/XML, XML and Text
+  * Support 100% technical capability of your target APIs
+  * Web-based accessible using any browser to developers and testers
+  * A single place to view all mock's APIs and reuse it
+  * SSupport modification of payload, method, and resource path
+  * Support user management
+  * Auto-generation of an API endpoint
 
 
 <br/>
 
-Mockgee uses a number of open source projects to work properly:
+Mockgee uses several open-source projects to work properly -
 
 * [VueJS] - HTML enhanced for web apps!
 * [Buefy] - Lightweight UI components for Vue.js based on Bulma
@@ -38,9 +39,6 @@ Mockgee uses a number of open source projects to work properly:
 * [node.js] - evented I/O for the backend
 * [Express] - fast node.js network app framework [@tjholowaychuk]
 
-<br/>
-
-And of course Mockgee itself is open source with a [public repository](https://github.com/mockgee/mockgee) on GitHub.
 
 <br/>
 
