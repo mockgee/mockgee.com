@@ -76,6 +76,8 @@ To test an API mock, use any existing REST Client or use [Mockgee REST Client](h
 
 <img src="https://s3-eu-west-1.amazonaws.com/mockgee.io/images/public/mockgee_show_resources.png" />
 
+<br/>
+
 ### Step 4: Modify an existing mock
 
 1. In the left hand menu click Mock > APIs, all your mocks API display here
