@@ -18,8 +18,7 @@
     <div style="padding: 1rem 1rem">
       <b-message type="is-info" has-icon>
         <p>
-          Mockgee installation is currently available as a Docker container in
-          <strong>Beta release</strong>. See the
+          Mockgee installation is currently available as a Docker container. See the
           <a href="/guide/installation">installation steps</a> here
         </p>
       </b-message>

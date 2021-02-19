@@ -8,8 +8,8 @@
               Mock <span class="has-text-light">Your</span> APIs with Mockgee
             </h1>
             <h6
-              class="is-size-5 has-text-weight-semibold has-text-light"
-            >Create the mock API endpoint with multiple combinations of requests and responses. Simulate like a true target API endpoint.</h6>
+              class="is-size-4 has-text-weight-semibold has-text-light"
+            >Create ready-to-use your target-like APIs in seconds. Simulate like a true target APIs endpoints.</h6>
             <br />
             <b-button
               type="is-light is-medium"

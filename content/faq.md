@@ -12,11 +12,11 @@ description: This is my FAQ
 
 **Q: What is Mockgee?**
 
-Mockgee is a web-based API mocking server that provides a user interface for creating mock APIs in seconds. It is designed to provide consumable APIs available to developers even before actual APIs are ready.
+Mockgee is a Nodejs based APIs mocking server that also provides a user interface for working with mock APIs. It is designed to provide consumable APIs available to developers even before actual APIs are ready. 
 
 **Q: What can I do with Mockgee?**
 
-Mockgee lets you create a replica of your target API with 100% technical capability. Create multiple combinations of request-response Mock endpoint of same resource path. It also provides user registration and login, resource management, and a request interceptor that can captures applications generated request payload.
+Mockgee lets you create a replica of your target API with 100% technical capability. Create multiple combinations of request-response Mock endpoint of same resource path. It also provides user registration and login, resource management, and a *Mockgee Request Interceptor* that can captures applications generated request payload.
 
 **Q: How can I get started with Mockgee?**
 
@@ -43,6 +43,10 @@ Mockgee supports primary or most-commonly-used HTTP verbs (or methods, as they a
 **Q: Does Mockgee support setting custom headers?**
 
 Yes, Mockgee supports custom HTTP headers. It is commonly meant to provide additional information that may be pertinent to a web developer, or for troubleshooting purposes.
+
+**Q: Does Mockgee support setting HTTP status code other than 200?**
+
+Yes, Mockgee supports setting HTTP status codes defined by specification in [RFC 7231](https://tools.ietf.org/html/rfc7231#section-6.5.1).
 
 
 ## Deployment

@@ -24,7 +24,7 @@
                 <li> - Support multiple users. User access management</li>
                 <li> - Support 100% technical capability of a real-world API</li>
                 <li> - Auto-generation of endpoint URL and copy to clipboard supports</li>
-                <li> - Mockgee's Request Interceptor captures system-generated requests</li>
+                <li> - Mockgee Request Interceptor (MRI) captures system-generated requests</li>
               </ul>
               <div class="mt-5">
                 <a class="button is-primary" href="/guide/installation">Install Mockgee in Docker container</a>
