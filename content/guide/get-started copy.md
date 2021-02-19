@@ -21,6 +21,8 @@ page: 3
     
 2. Click on Sign up.
 
+<!-- 3. Mockgee sends you an account confirmation. In the confirmation email, click the account verification link.
+  You'll be sent to the login page: http://locahost:8080 -->
 
 3. Log in with the username and password that you used to sign up. 
    After your account is activated.
@@ -39,6 +41,9 @@ page: 3
 ### Step 2: Create an API mock
 <br>
 
+**To create an API mock**
+<br>
+
 1. Sign in to http://locahost:8080
 2. Click create Mock API
 3. Configure your mock details, as follows
@@ -46,14 +51,10 @@ page: 3
   - **Path** Enter resource path
   - **Body** Select content type of response body and set response text
 4.  On the **Status Code** tab, choose other status code than default **200** (Optional)
-5.  On the **Response Headers** tab, create custom headers for response API (Optional)
+5.  On the **Custom Header** tab, create custom headers for response API (Optional)
 6. Click **+ Add** to add new mock API
 
 <br/>
-
-**Add new API example picture below:**
-
-<img src="https://s3-eu-west-1.amazonaws.com/mockgee.io/images/public/mockgee_add_api.png" />
 
 <info-box>
   <template #info-box>
@@ -71,10 +72,6 @@ To test an API mock, use any existing REST Client or use [Mockgee REST Client](h
 3. Test it with REST client by using appropriate HTTP method and pasting endpoint URL
 
 <br/>
-
-**API resource list example picture below:**
-
-<img src="https://s3-eu-west-1.amazonaws.com/mockgee.io/images/public/mockgee_show_resources.png" />
 
 ### Step 4: Modify an existing mock
 

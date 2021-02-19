@@ -113,7 +113,7 @@ For details, [see the docker run reference](https://docs.docker.com/engine/refer
 Let's verify the Mockgee installation using the latest tagged image. Docker downloads a new Mockgee image the first time it is run:
 
 ```sh
-$ docker run -it -p 8080:8080 -p 8085:8085 --name mockgee_server mockgee/mockgee-ce:latest
+$ docker run -it -p 8080:8080 -p 8085:8085 --name some-mockgee mockgee/mockgee-ce:latest
 ```
 
 <info-box type="is-success">
@@ -139,13 +139,31 @@ $ docker volume ls
 local     mockgee
 
 # Create Mockgee container with persistence storage 
-$ docker run -it -p 8080:8080 -p 8085:8085 --name mockgee_server \
+$ docker run -it -p 8080:8080 -p 8085:8085 --name some-mockgee \
 -v mockgee:/usr/app/store mockgee_server mockgee/mockgee-ce:latest
 ```
 
+<br>
+
+## Image Variants
+<br>
+
+The Mockgee images come in many flavors, each designed for a specific use case.
+
+*   `mockgee:<version>` This is the defacto image. Distroless Docker's image is pioneered by Google to improve security and container size.
+*   `mockgee:<version>-alpine` This image is based on the popular Alpine Linux project, available in the alpine official image. Alpine Linux is much smaller than most distribution base images (~5MB) and thus leads to much slimmer images in general.
 
 
-<br/>
+<br>
+
+## start a mockgee instance with [alpine](https://www.alpinelinux.org/) based image
+<br>
+
+```sh
+$ docker run -it -p 8080:8080 -p 8085:8085 --name some-mockgee mockgee/mockgee-ce:lts-alpine
+```
+
+<br>
 
 
 
@@ -159,6 +177,3 @@ The original author of Mockgee is [Tanveer Iqbal](https://github.com/tqiqbal)
   [MIT](LICENSE)
 
   <br/> -->
-
-  
-
