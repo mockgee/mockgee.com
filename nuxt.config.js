@@ -14,11 +14,12 @@ export default {
   ** See https://nuxtjs.org/api/configuration-head
   */
   head: {
+    // titleTemplate: '%s - ' + 'Mockgee',
     title: 'Mockgee - Create Mock APIs in seconds',
     meta: [
       { charset: 'utf-8' },
       { name: 'viewport', content: 'width=device-width, initial-scale=1' },
-      { hid: 'description', name: 'description', content: process.env.npm_package_description || '' }
+      { hid: 'description', name: 'description', content: 'Mockgee is a Nodejs based APIs mocking server that also provides a user interface for working with mock APIs. It is designed to provide consumable APIs available to developers even before actual APIs are ready. Mockgee lets you create a replica of your target API with 100% technical capability. Create multiple combinations of request-response for an API resource.' }
     ],
     link: [
       { rel: 'icon', type: 'image/x-icon', href: '/favicon.ico' },
@@ -46,6 +47,7 @@ export default {
   ** Nuxt.js dev-modules
   */
  buildModules: [
+  '@nuxtjs/google-analytics'
   ],
   /*
   ** Nuxt.js modules
@@ -72,6 +74,9 @@ export default {
         theme: 'prism-themes/themes/prism-material-oceanic.css'
       }
     }
+  },
+  googleAnalytics: {
+    id: 'UA-190268652-1'
   },
   /*
   ** Build configuration

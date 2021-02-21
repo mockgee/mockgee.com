@@ -31,10 +31,15 @@ export default {
 
     return { faq }
   },
-    head() {
-    return {
-      title: "FAQ | Mockgee"
-    }
+head: {
+    title: 'FAQ | Mockgee',
+    meta: [
+      {
+        hid: 'faq',
+        name: 'description',
+        content: 'FAQ'
+      }
+    ],
   }
 }
 </script>

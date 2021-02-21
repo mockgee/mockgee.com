@@ -124,10 +124,10 @@ export default {
       title: "Mockgee: Create Mock APIs in seconds",
       meta: [
         {
-          hid: "description",
+          hid: "index",
           name: "description",
           content:
-            "Mockgee is a web based API mock server that provides user interface for working with mock APIs. It is designed to provide consumable APIs available to developers even before actual APIs are ready.",
+            "mockserver, mock server, mock http server, http mock server, mock-server, mocking api tools, mock rest service, mock target api, mocking api, nodejs mock http server, server mock, nodejs mock server, mock rest server, nodejs mock web service, api mock, mock web service nodejs, mock web server, mock service, mock rest api, mock http response, mock http server nodejs, mock soap response, json mock service, api mocking, api proxying, proxy, introspect http, proxy http, proxy https, proxy rest api",
         },
       ],
     }

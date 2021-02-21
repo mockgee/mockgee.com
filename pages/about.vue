@@ -33,17 +33,15 @@ export default {
       src: 'https://s3-eu-west-1.amazonaws.com/mockgee.io/images/public/mockgee_profile.png'
     }
   },
-  head() {
-    return {
-      title: "About | Mockgee",
-      meta: [
-        {
-          hid: "description",
-          name: "description",
-          content: "Mockgee is an API mock server that is designed to provide consumable APIs available to developers even before actual APIs are ready. It is designed and developed by Tanveer Iqbal</a> and is now maintained by Elfedge Solutions Pvt. Ltd."
-        }
-      ]
-    }
+head: {
+    title: 'About | Mockgee',
+    meta: [
+      {
+        hid: 'about',
+        name: 'description',
+        content: 'Mockgee is an API mock server that is designed to provide consumable APIs available to developers and testers even before actual APIs are ready. It is designed and developed by Tanveer Iqbal and is now maintained by Elfedge Solutions Pvt. Ltd.'
+      }
+    ],
   }
 }
 </script>

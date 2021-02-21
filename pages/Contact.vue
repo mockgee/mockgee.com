@@ -77,10 +77,15 @@ export default {
       imageURL: config.images.constact
     }
   },
-    head() {
-    return {
-      title: "Contact | Mockgee"
-    }
+head: {
+    title: 'Contact | Mockgee',
+    meta: [
+      {
+        hid: 'contact',
+        name: 'description',
+        content: 'Please fill out the quick form and we will be in touch with you lightening speed.'
+      }
+    ],
   },
   methods: {
     async sendMessage() {

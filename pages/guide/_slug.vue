@@ -59,10 +59,15 @@ export default {
       ]
     }
   },
-  head() {
-    return {
-      title: "Guide | Mockgee"
-    }
+head: {
+    title: 'Guide | Mockgee',
+    meta: [
+      {
+        hid: 'guide',
+        name: 'description',
+        content: 'Get Started, Installation'
+      }
+    ],
   }
 }
 </script>
