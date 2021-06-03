@@ -27,14 +27,14 @@
       </b-navbar-item>
     </template>
     <template slot="end">
-      <b-navbar-item tag="nuxt-link" :to="{ path: '/' }">HOME</b-navbar-item>
+      <b-navbar-item href="/">HOME</b-navbar-item>
 
       <b-navbar-dropdown label="TOOLS">
-                <b-navbar-item href="#">
-                    <a href="/guide/installation">Mockgee</a>
+                <b-navbar-item href="/guide/installation">
+                    Mockgee
                 </b-navbar-item>
-                <b-navbar-item href="#">
-                    <a href="https://velocity.mockgee.com" target="_blank">Try Velocity (Free)</a>
+                <b-navbar-item href="https://velocity.mockgee.com" target="_blank">
+                    Try Velocity (Free)
                 </b-navbar-item>
        </b-navbar-dropdown>
              <b-navbar-item tag="nuxt-link" :to="{ path: '/guide/installation' }"
